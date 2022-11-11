@@ -79,7 +79,6 @@ h2 {
 }
 
 h3 {
-
     color:black;
     font-weight: normal;
     font-family:'Alfa Slab One', Garamond, serif;
@@ -105,18 +104,22 @@ h4 {
 
 
 h4 span {
-    padding:0. 5rem;
+    padding: 0.5rem;
 }
 
 
 h5 {
     font-size:1rem;
     margin-top:.25rem;
-    padding:.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
     background-color: #333;
     color:#FFF;
     font-weight: normal;
     text-align:center;
+}
     
 /* Section & Paragraph */
 
@@ -142,7 +145,7 @@ p{
 img {
     width:100%;
     margin: 0 auto;
-    max-width:800px;
+    max-width: 800px;
 }
 
 figure {
@@ -155,7 +158,12 @@ figcaption {
 }
 
 footer {
-    padding: 1rem 1rem 1rem 1rem;
-    border: 2rem solid #333;
+    padding-top: 1rem ;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-width: 2rem;
+    border-top-style: solid;
+    border-color: #333;
 }
 
