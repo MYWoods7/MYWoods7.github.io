@@ -48,4 +48,170 @@
 
 /* ------ START WRITING YOUR CODE BELOW ------ */
 
+/*Spacing*/ 
 
+           /*/ - padding (shorthand and/or specific properties like padding-bottom, etc.)
+
+            - margin, (shorthand and/or specific properties like margin-top, etc.)
+
+            - letter-spacing, word-spacing, line-height
+
+            - width, max-width, min-width
+            - height, max-height, min-height /*/
+
+html {
+    font-size: 16px;
+    font-family: Roboto, san-serif;
+    color: #333;
+    }           
+
+<figure class = "article-image">
+	img src-"images/stag.jpg" alt="placeholder image"
+<figure>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+
+@font-face {  
+font-family:"montserrat"
+src: url(fonts/  )
+font-weight:normal
+font-style:normal
+}
+@font-face {  }
+	font-family: sans-serif
+src: url(  )
+font-weight:normal
+font-style:normal
+
+
+
+
+body {
+	padding: 0;
+	margin: 0,auto;
+	font-size: 1rem;
+	max-width: 104rem;
+	min-width:64rem;
+}
+
+
+main {
+
+margin: 0 auto
+padding-bottom: .25rem;
+width:90%;
+
+}
+
+img {
+	width:100%;
+	display:block;
+	max-width:25rem;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+/* Header */
+
+header {
+    margin: 0 auto;
+        padding: .5rem 5%;
+        text-align: center;
+    }
+h1  {
+    font-family:
+    font-size: 3.75rem
+    margin: 2 rem 0
+    letter-spacing:  .125 rem
+    text-shadow: .125 rem  .125 rem  .125 rem #333;
+    
+transform: rotate (-4deg)	
+}
+
+.highlight {
+	font-family:Ultra;
+	font-weight: normal;
+	background color: #83344D;
+	color: #EED;
+	padding: 0 1 rem;
+	font-size: 4rem'
+	text-transform: uppercase;
+	border-top-left-radius: 1 rem;
+	border-bottom-right-radius: 1rem;
+	box shadow: .187rem .187rem .187rem #333;
+}
+
+h1 tofu span class=:highlight
+
+/* Navigation Menu */
+
+nav {
+	margin:4rem 0 4rem 0
+	padding: 0 5%
+	border-top: .0625rem solid #333
+}
+{
+border-bottom: 0.625rem solid #333
+}
+
+nav a {
+	display:  inline-block;
+	font-size: 1.75rem;
+	padding: 2 rem 6 rem 2 rem 0;
+	color: #27476E;
+	font-weight: bold;
+
+}
+
+
+nav: nth-child(even): focus,
+nav: nth-child(even): hover,
+nav: nth-child(even):active {
+	text-decoration line-through
+	transform rotate (-4deg)
+	text-transform uppercase
+	font-size 1.5rem
+	color #000
+}
+
+nav: nth-child(odd):focus;
+nav: nth-child(odd):hover;
+nav: nth-child(odd):active;
+
+{
+text-decoration: line-through;
+	transform rotate: (-4deg);
+	text-transform:uppercase;
+	font-size: 1.5rem;
+	color: #000;
+}
+
+section 
+	<article>
+	</article>
+<aside>
+</aside>
+
+/*Section*/
+
+.main-section {
+
+    display: flex
+    }
+    
+    
+    article {
+        width: 75%
+    }
+    article-image + p{
+        margin-top: 0
+    }
+    
