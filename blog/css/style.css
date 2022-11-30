@@ -58,23 +58,13 @@
 
             - width, max-width, min-width
             - height, max-height, min-height /*/
+            
 
 html {
     font-size: 16px;
     font-family: Roboto, san-serif;
     color: #333;
     }           
-
-<figure class = "article-image">
-	img src-"images/stag.jpg" alt="placeholder image"
-<figure>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
 
 
 @font-face {
@@ -96,7 +86,7 @@ html {
 
 body {
 	padding: 0;
-	margin: 0,auto;
+	margin: 0 auto;
 	font-size: 1rem;
 	max-width: 104rem;
 	min-width:64rem;
@@ -105,7 +95,7 @@ body {
 
 main {
 
-margin: 0 auto
+margin: 0 auto;
 padding-bottom: .25rem;
 width:90%;
 
@@ -114,7 +104,7 @@ width:90%;
 img {
 	width:100%;
 	display:block;
-	max-width:25rem;
+	max-width: 25rem;
 }
 
 a {
@@ -130,15 +120,17 @@ header {
         text-align: center;
     }
 h1  {
-    font-family:
+    font-family:;
     font-size: 3.75rem;
-    margin: 2 rem 0;
-    letter-spacing:  .125 rem;
-    text-shadow: .125 rem  .125 rem  .125 rem #333;
+    margin: 2rem 0;
+    letter-spacing: .125 rem;
+    text-shadow: .125rem .125rem .125rem #333;
     transform: rotate(-4deg);   
     
     
 }
+
+
 
 .highlight {
 	font-family:Ultra;
@@ -150,25 +142,24 @@ h1  {
 	text-transform: uppercase;
 	border-top-left-radius: 1 rem;
 	border-bottom-right-radius: 1rem;
-	box shadow: .187rem .187rem .187rem ;
+	box-shadow: .187rem .187rem .187rem ;
 }
-
-
-h1 tofu span class=highlight
-
 
 
 /* Navigation Menu */
 
-nav {
-	margin:4rem 0 4rem 0;
+nav{
+	margin:4rem 0;
 	padding: 0 5%;
 	border-top: .0625rem solid #333;
     
 }
 
-{
-border-bottom:.0625rem solid #333;
+nav{
+	margin:4rem 0;
+	padding: 0 5%;
+	border-bottom: .0625rem solid #333;
+    
 }
 
 nav a {
@@ -181,47 +172,122 @@ nav a {
 }
 
 
-nav: nth-child(even): focus;
-nav: nth-child(even): hover;
-nav: nth-child(even):active; 
-{
+nav :nth-child(even):focus,
+nav :nth-child(even):hover,
+nav :nth-child(even):active{
 	text-decoration: line-through;
-	transform: rotate (-4deg);
+    transform: rotate (-4deg);
 	text-transform: uppercase;
 	font-size: 1.5rem;
 	color: #000;
 }
 
-nav: nth-child(odd):focus;
-nav: nth-child(odd):hover;
-nav: nth-child(odd):active;
-
-{
+nav :nth-child(odd):focus,
+nav :nth-child(odd):hover,
+nav :nth-child(odd):active {
 text-decoration: line-through;
-    transform: rotate(-4deg);
+    transform: rotate(4deg);
 	text-transform:uppercase;
 	font-size: 1.5rem;
 	color: #000;
 }
 
-section 
-	<article>
-	</article>
-<aside>
-</aside>
+.main-section{
+    display:flex
+} 
 
-/*Section*/
+article{
+    width:75%;
+}
 
-.main-section {
+.article-image + p{
+    margin-top: 0
+}
+.article-image{
+float:left;
+margin:0 1rem 0 0;
+}
 
-    display: flex
-    }
-    
-    
-    article {
-        width: 75%
-    }
-    article-image + p{
-        margin-top: 0
-    }
-    
+/*Subsection*/
+
+.subsection {
+margin-top: 4rem;
+margin-bottom: 2rem;
+padding:0;
+display:grid;
+grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
+grid-column-gap:1%
+
+}
+
+.subsection figure{
+    padding:0;
+    margin:0;
+    background-color:#eed;
+}
+
+
+
+.subsection img{
+    padding-bottom: 1%;
+    min-width:5rem
+
+
+} 
+
+button {
+    margin-top: 1rem;
+    padding: 1rem;
+    font-family: Ultra;
+    font-size:1.5rem;
+    text-transform:uppercase;
+    background-color:#FFF;
+    box-shadow: .187rem .187rem .187rem #333;
+    border:none;
+    border-radius: .0625rem
+}
+
+button a{
+
+    color:#EED;
+}
+
+
+/*Sidebar*/
+aside{
+    clear: left;
+    margin-left: 3%;
+    padding-left: 3%;
+    width:19%;
+    border-left: .0625 rem solid #333;
+
+}
+   
+aside :nth-child(1){
+    margin-top:0;
+}
+
+aside p {
+    font-size: .75rem;
+    padding-bottom: 2rem;
+    border-bottom: .0625rem solid #333;
+}
+
+/*Typographic*/
+/*font-size
+font-style
+margin-top
+padding
+line-height*/
+
+h2{
+
+}
+
+h3{
+
+}
+
+time{
+
+}
