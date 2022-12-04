@@ -80,14 +80,14 @@ header, footer {
 /* Imported Typfaces */
 
 @font-face {
-    font-family:"montserrat";
+    font-family:Montserrat;
     src: url(../fonts/montserrat-regular.ttf) format('truetype');
     font-weight:normal;
     font-style:normal;
 }
 
 @font-face {
-    font-family:"josefinslab";
+    font-family:Josefinslab;
     src: url(../fonts/josefinslab-regular.ttf) format('truetype');
     font-weight:normal;
     font-style:normal;
@@ -96,12 +96,12 @@ header, footer {
 /* Typography Styles */
 
 html{
-    font-family: "montserrat", Arial, Helvetica, sans-serif; 
+    font-family: Montserrat, Arial, sans-serif; 
 
 }
 
 h1 {
-    font-family: "josefinslab", Garamond, serif;
+    font-family: Josefinslab, Garamond,serif;
     letter-spacing: 0.125rem;
     font-size: 3.75rem; 
     text-align: center;
@@ -109,15 +109,17 @@ h1 {
 }
 
 h2 {
-    font-family: "josefinslab", Garamond, serif;
+    font-family: Josefinslab, Garamond, serif;
     letter-spacing: 0.125rem;
     font-size:  1.5rem;
 
 }
 
 h2 + p {
-    letter-spacing: 0.125rem;
+    font-size: 0.75rem;
+    letter-spacing: 0.031rem;
     text-indent: 1.5rem;
+    
  
 }
 
@@ -126,6 +128,7 @@ p {
     font-size: 0.75rem; 
     letter-spacing: 0.031rem;
     word-spacing: 0.125rem;
+    
    
 }
 
@@ -144,10 +147,11 @@ figcaption {
 
 /* Link Styling */
 
-.long-list > li > a:hover {
-
+.long-list > li > a:hover 
+{
     text-transform:uppercase;
 }
+
 a {
     outline: none;
 }
@@ -173,11 +177,10 @@ ul {
     margin-right: 0;
     list-style-type: square;
     
-    
 }
 
 ol {
-    margin-top: 1rem ;
+    margin-top: 1rem;
     margin-bottom: 1rem;
     margin-left: 0;
     margin-right: 0;
